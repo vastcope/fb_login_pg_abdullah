@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="icon" href="">
+    <style>
+        body {
+            margin-top: 10%;
+            margin-left: 20%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: rgb(235, 235, 235);
+            height: 720px;
+        }
+
+        .main {
+            height: auto;
+            width: 80%;
+            background-color: rgb(235, 235, 235);
+            display: flex;
+            border-radius: 5px;
+            justify-content: space-between;
+        }
+
+        .left {
+            height: auto;
+            width: 55%;
+            margin: 5%;
+        }
+
+        .left p {
+            font-size: 3.3rem;
+            color: rgb(0, 119, 255);
+            font-weight: 700;
+            margin-top: 17%;
+        }
+
+        .left h4 {
+            font-size: 1.3rem;
+            color: rgb(53, 53, 53);
+            font-weight: 600;
+            margin-top: -40px;
+        }
+
+        .left p,
+        h4 {
+            margin-left: 5%;
+        }
+
+        .right {
+            height: auto;
+            width: 40%;
+            margin: 5%;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 0px 0px 25px 5px darkgray;
+
+        }
+
+        .right a {
+            margin-top: 2%;
+            margin-left: 30%;
+            text-decoration: none;
+            color: rgb(0, 81, 255);
+        }
+
+        .right .new {
+            margin-left: 27%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            color: white;
+            background: rgb(44, 189, 0);
+            border: none;
+            border-radius: 3px;
+            padding: 2.5%;
+        }
+
+        input {
+            border: none;
+            height: 50px;
+            width: 90%;
+            margin: 5%;
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 5px;
+            text-decoration: underline gray;
+        }
+
+        .login {
+            width: 80%;
+            color: white;
+            background: rgb(0, 119, 255);
+            border: none;
+            border-radius: 3px;
+            margin-left: 10%;
+            margin-top: 5%;
+            margin-bottom: 3%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <p>facebook</p>
+            <h4>Connect with friends and the world <br>around you on Facebook</h4>
+        </div>
+        <div class="right">
+            <form action="#">
+                <input type="email/phone" class="email" placeholder="Email of phone number">
+                <input type="password" class="passwoed" placeholder="Password">
+                <button type="submit" class="login">
+                    <h3>Login</h3>
+                </button>
+                <a href="#">Forgot password</a><br>
+                <button class="new">Create new account</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
